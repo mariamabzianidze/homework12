@@ -1,0 +1,22 @@
+/* 1439px-769px */
+@media (max-with: 1001px) {
+  .container {
+    padding: 64px 24px;
+  }
+}
+@media (max-with: 801px) {
+  .container {
+    padding: 32px 24px;
+  }
+  .main_section {
+    padding: 40px 16px;
+    flex-direction: column;
+    row-gap: 64px;
+  }
+  form {
+    width: 100%;
+  }
+  iframe {
+    height: 338px;
+  }
+}
